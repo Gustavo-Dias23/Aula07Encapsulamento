@@ -11,7 +11,7 @@ namespace Aula07Encapsulamento
         public string AprovarCompra(){
             return "Compra aprovada";
         }
-        private bool ValidarCompra(string tokenValidacao){
+        private bool ValidarToken(string tokenValidacao){
             if(tokenValidacao !=null && tokenValidacao !=""){
                 return true;
             }
